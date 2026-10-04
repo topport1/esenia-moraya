@@ -8,7 +8,7 @@ window.SITE = {
     rak: 'https://app.lava.top/products/b0f4ac30-f64d-4081-abde-92a1c2306547',       // Рак
     lev: 'https://app.lava.top/products/07131b98-6778-464d-84d3-0ab012194b2a',       // Лев
     deva: 'https://app.lava.top/products/46231cce-4dab-4c53-96dc-9f691ca4580b',      // Дева
-    vesy: '',      // Весы
+    vesy: 'https://app.lava.top/products/ddea8221-97bc-4f79-bc94-d34eb6dd6b2d',      // Весы
     skorpion: '',  // Скорпион
     strelec: '',   // Стрелец
     kozerog: '',   // Козерог
