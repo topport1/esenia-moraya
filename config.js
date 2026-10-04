@@ -4,7 +4,7 @@ window.SITE = {
   buy: {
     oven: 'https://app.lava.top/products/3376cf6f-8d50-4fcf-ac4a-3ddd6d3b2d41',      // Овен
     telec: 'https://app.lava.top/products/40e875cc-efe6-4669-a6fd-58ce51b9da45',     // Телец
-    bliznecy: '',  // Близнецы
+    bliznecy: 'https://app.lava.top/products/a4242375-5b82-451b-aef9-f0a36ab022c4',  // Близнецы
     rak: '',       // Рак
     lev: '',       // Лев
     deva: '',      // Дева
