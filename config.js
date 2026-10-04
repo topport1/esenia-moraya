@@ -6,7 +6,7 @@ window.SITE = {
     telec: 'https://app.lava.top/products/40e875cc-efe6-4669-a6fd-58ce51b9da45',     // Телец
     bliznecy: 'https://app.lava.top/products/a4242375-5b82-451b-aef9-f0a36ab022c4',  // Близнецы
     rak: 'https://app.lava.top/products/b0f4ac30-f64d-4081-abde-92a1c2306547',       // Рак
-    lev: '',       // Лев
+    lev: 'https://app.lava.top/products/07131b98-6778-464d-84d3-0ab012194b2a',       // Лев
     deva: '',      // Дева
     vesy: '',      // Весы
     skorpion: '',  // Скорпион
