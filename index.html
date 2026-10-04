@@ -4,11 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Есения Морайя — гороскоп для вашего знака</title>
-<meta name="description" content="Гороскоп для вашего знака на октябрь 2026 — декабрь 2027: 57 страниц. Прогноз на каждый месяц, удачные дни, совместимость, дача по Луне, сонник. PDF на почту.">
+<meta name="description" content="Гороскоп для вашего знака на октябрь 2026 — декабрь 2027: книга 57 страниц. Прогноз на каждый месяц, удачные дни, сонник на 81 сон, совместимость, дача по Луне. PDF на почту.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Есения Морайя — гороскоп для вашего знака">
-<meta property="og:description" content="Гороскоп для вашего знака на 15 месяцев вперёд: с октября 2026 по декабрь 2027. Книга в PDF, составлена для каждого из 12 знаков.">
-<meta property="og:image" content="https://topport1.github.io/esenia-moraya/img/esenia-1.jpg">
+<meta property="og:title" content="Гороскоп для вашего знака · октябрь 2026 — декабрь 2027">
+<meta property="og:description" content="57 страниц: прогноз на каждый месяц, удачные дни, сонник на 81 сон, совместимость и дачный календарь. PDF на почту.">
+<meta property="og:image" content="https://topport1.github.io/esenia-moraya/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Книга «Гороскоп для вашего знака»: обложка и страницы, 790 ₽">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#121729">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23121729'/%3E%3Cpath d='M40 14a19 19 0 1 0 10 31A16 16 0 0 1 40 14z' fill='%23b8964f'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="fonts/fonts.css">
@@ -16,6 +21,15 @@
 <script src="config.js"></script>
 </head>
 <body>
+
+<!-- Верхняя панель на компьютере -->
+<div class="topbar" id="topbar" aria-hidden="true">
+  <div class="wrap topbar-in">
+    <span class="tb-name">Есения Морайя · <span class="js-tb-title">Гороскоп для вашего знака</span></span>
+    <span class="tb-right"><span class="tb-price">790<span class="rub">&nbsp;₽</span></span>
+      <a class="btn btn-gold tb-btn js-bar-btn" href="#signs" tabindex="-1">Выбрать знак</a></span>
+  </div>
+</div>
 
 <!-- 1. Первый экран -->
 <header class="hero">
@@ -26,45 +40,106 @@
     <div class="hero-text">
       <p class="kicker">Есения Морайя</p>
       <h1>Гороскоп для вашего знака на&nbsp;15&nbsp;месяцев вперёд</h1>
-      <p class="lead">С&nbsp;октября 2026 по&nbsp;декабрь 2027&nbsp;— месяц за&nbsp;месяцем, составлено для вашего знака.</p>
+      <p class="lead">Книга на&nbsp;весь год: прогноз на&nbsp;каждый месяц, ваши удачные дни, сонник, совместимость и&nbsp;дачный календарь по&nbsp;Луне. Составлено для вашего знака.</p>
+      <ul class="chips" aria-label="Что в книге">
+        <li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="7" width="22" height="20" rx="2"/><path d="M5 13h22M11 4v6M21 4v6"/></svg>15 месяцев</li>
+        <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M20 5a11 11 0 1 0 7 17A9 9 0 0 1 20 5z"/></svg>Удачные дни</li>
+        <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 7c4-1 7 0 10 2 3-2 6-3 10-2v18c-4-1-7 0-10 2-3-2-6-3-10-2z"/><path d="M16 9v18"/></svg>Сонник на&nbsp;81&nbsp;сон</li>
+        <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 28V14M16 18c-6 0-9-4-9-9 6 0 9 4 9 9zM16 15c0-5 3-8 9-8 0 5-3 8-9 8zM8 28h16"/></svg>Дача по&nbsp;Луне</li>
+      </ul>
       <a class="btn btn-gold" href="#signs">Выбрать свой знак</a>
-      <p class="hero-note">Книга 57&nbsp;страниц · PDF на&nbsp;почту · <b>790&nbsp;₽</b></p>
+      <p class="hero-note">57&nbsp;страниц · PDF на&nbsp;почту · <s>2&nbsp;500&nbsp;₽</s> <b>790&nbsp;₽</b></p>
     </div>
   </div>
 </header>
 
 <main>
 
-<!-- 2. Выбор знака -->
+<!-- 2. Что в книге -->
+<section id="inside" class="section">
+  <div class="wrap">
+    <h2>Что в&nbsp;книге</h2>
+    <p class="sub">57&nbsp;страниц, составленных для вашего знака. Книга на&nbsp;весь год, к&nbsp;ней удобно возвращаться в&nbsp;начале каждого месяца.</p>
+
+    <ul class="cards">
+      <li class="card"><span class="big">15</span><b class="card-h">месяцев прогноза</b>
+        <p>С&nbsp;октября 2026 по&nbsp;декабрь 2027, по&nbsp;2&nbsp;страницы на&nbsp;каждый месяц: главное, деньги, семья и&nbsp;любовь, дом, силы и&nbsp;настроение</p></li>
+      <li class="card"><span class="big">81</span><b class="card-h">сон в&nbsp;соннике</b>
+        <p>Толкования по&nbsp;алфавиту, а&nbsp;где сон значит для вашего знака что-то особенное, Есения написала отдельно</p></li>
+      <li class="card"><span class="big">12</span><b class="card-h">знаков в&nbsp;совместимости</b>
+        <p>С&nbsp;кем вам легко, а&nbsp;с&nbsp;кем нужно больше терпения: муж, дети, подруги, соседи</p></li>
+      <li class="card"><span class="big big-word">каждый</span><b class="card-h">месяц: дача по&nbsp;Луне</b>
+        <p>Что делать в&nbsp;саду и&nbsp;в&nbsp;какие дни сажать рассаду и&nbsp;комнатные цветы</p></li>
+      <li class="card"><span class="big big-word">каждый</span><b class="card-h">месяц: удачные дни</b>
+        <p>Удачные дни и&nbsp;дни, когда лучше не&nbsp;спешить, посчитаны по&nbsp;Луне для вашего знака</p></li>
+      <li class="card"><span class="big">6</span><b class="card-h">периодов «Когда не&nbsp;спешить»</b>
+        <p>Даты на&nbsp;весь период, когда хорошо доделывать старое, а&nbsp;большое новое отложить</p></li>
+    </ul>
+
+    <ul class="also" aria-label="Ещё в книге">
+      <li>Характер знака: женщина, мужчина, зрелые годы</li>
+      <li>«Ваш год»: 4&nbsp;главные темы</li>
+      <li>Народный календарь и&nbsp;приметы</li>
+      <li>Обереги: камни, цвета, числа удачи</li>
+      <li>«Три дела на&nbsp;месяц» с&nbsp;галочками</li>
+      <li>Страницы для записей</li>
+      <li>Письмо от&nbsp;Есении вашему знаку</li>
+    </ul>
+
+    <!-- Пример месяца: текст взят из книги для Весов без изменений -->
+    <figure class="example">
+      <p class="ex-month">Ноябрь 2026 · Весы&nbsp;<span class="ex-glyph">&#x264E;&#xFE0E;</span></p>
+      <div class="ex-part"><b>Главное</b><p>До&nbsp;14&nbsp;ноября Венера и&nbsp;Меркурий ещё идут назад, а&nbsp;потом обе звезды разворачиваются вперёд. Вторая половина месяца заметно легче: то, что стояло, начинает двигаться.</p></div>
+      <div class="ex-part"><b>Семья и&nbsp;любовь</b><p>Венера в&nbsp;вашем знаке: несмотря на&nbsp;хлопоты, вы особенно обаятельны. Хорошее время помириться с&nbsp;тем, с&nbsp;кем была размолвка.</p></div>
+      <div class="ex-part"><b>Дача и&nbsp;цветы</b><p>Утеплите посадки, повесьте кормушки для птиц. Переберите овощи в&nbsp;погребе.</p></div>
+      <p class="ex-lucky"><span>Ваши удачные дни:</span> 6, 7, <b>16</b>, <b>17</b>, 25, 26</p>
+      <div class="ex-part"><b>Три дела на&nbsp;ноябрь</b>
+        <ul class="ex-todo">
+          <li>Доделать одно старое дело</li>
+          <li>Разобрать квитанции и&nbsp;бумаги</li>
+          <li>Помириться с&nbsp;тем, с&nbsp;кем была размолвка</li>
+        </ul>
+      </div>
+      <figcaption>Так выглядит каждый месяц в&nbsp;книге (пример для Весов)</figcaption>
+    </figure>
+
+    <h3 class="pv-h">Страницы из&nbsp;книги для Весов</h3>
+    <div class="pv-strip" id="pvStrip" tabindex="0" role="region" aria-label="Страницы из книги, листайте вбок">
+      <figure class="pv"><button type="button" class="pv-btn" aria-label="Увеличить страницу: обложка"><img src="img/preview-cover.jpg" width="560" height="794" loading="lazy" alt="Обложка книги «Гороскоп для вашего знака» для Весов, октябрь 2026 — декабрь 2027"></button><figcaption>Обложка</figcaption></figure>
+      <figure class="pv"><button type="button" class="pv-btn" aria-label="Увеличить страницу: месяц, прогноз и удачные дни"><img src="img/preview-month.jpg" width="560" height="794" loading="lazy" alt="Страница ноября 2026: главное, деньги, семья и любовь, совет месяца, удачные дни"></button><figcaption>Месяц: прогноз и&nbsp;удачные дни</figcaption></figure>
+      <figure class="pv"><button type="button" class="pv-btn" aria-label="Увеличить страницу: месяц, дача, приметы, три дела"><img src="img/preview-month2.jpg" width="560" height="794" loading="lazy" alt="Продолжение ноября 2026: дом, силы и настроение, дача и цветы, народный календарь, три дела на месяц"></button><figcaption>Месяц: дача, приметы, три дела</figcaption></figure>
+      <figure class="pv"><button type="button" class="pv-btn" aria-label="Увеличить страницу: совместимость"><img src="img/preview-compat.jpg" width="560" height="794" loading="lazy" alt="Страница о совместимости Весов с другими знаками"></button><figcaption>Совместимость</figcaption></figure>
+      <figure class="pv"><button type="button" class="pv-btn" aria-label="Увеличить страницу: сонник"><img src="img/preview-sonnik.jpg" width="560" height="794" loading="lazy" alt="Страница сонника, буквы Н–П, с особым толкованием для Весов"></button><figcaption>Сонник</figcaption></figure>
+    </div>
+    <div class="pv-nav">
+      <button type="button" class="pv-arrow" data-dir="-1" aria-label="Предыдущая страница">&#8592;</button>
+      <span class="pv-hint">Листайте&nbsp;→ · нажмите, чтобы увеличить</span>
+      <button type="button" class="pv-arrow" data-dir="1" aria-label="Следующая страница">&#8594;</button>
+    </div>
+
+    <div class="frags">
+      <figure><img src="img/frag-lucky.jpg" width="700" height="159" loading="lazy" alt="Фрагмент страницы ноября: Ваши удачные дни: 6, 7, 16, 17, 25, 26. Будьте внимательны: 20, 21, 22"><figcaption>Крупно: удачные дни ноября</figcaption></figure>
+      <figure><img src="img/frag-sonnik.jpg" width="918" height="297" loading="lazy" alt="Фрагмент сонника: Новая одежда — к переменам к лучшему и новым знакомствам. Для Весов к обновлению и новому этапу, в котором вы будете красивее и увереннее"><figcaption>Крупно: сонник с&nbsp;толкованием для Весов</figcaption></figure>
+    </div>
+
+    <p class="cta-row"><a class="btn btn-gold" href="#signs">Выбрать свой знак</a></p>
+  </div>
+</section>
+
+<!-- 3. Выбор знака -->
 <section id="signs" class="section paper">
   <div class="wrap">
     <h2>Выберите свой знак</h2>
-    <p class="sub">Нажмите на&nbsp;свой знак&nbsp;— и&nbsp;мы покажем книгу для него.</p>
-
-    <div class="tiles" role="list">
-      <button class="tile" data-z="oven" role="listitem"><span class="glyph">&#x2648;&#xFE0E;</span><span class="tname">Овен</span><span class="tdates">21&nbsp;марта&nbsp;— 19&nbsp;апреля</span></button>
-      <button class="tile" data-z="telec" role="listitem"><span class="glyph">&#x2649;&#xFE0E;</span><span class="tname">Телец</span><span class="tdates">20&nbsp;апреля&nbsp;— 20&nbsp;мая</span></button>
-      <button class="tile" data-z="bliznecy" role="listitem"><span class="glyph">&#x264A;&#xFE0E;</span><span class="tname">Близнецы</span><span class="tdates">21&nbsp;мая&nbsp;— 20&nbsp;июня</span></button>
-      <button class="tile" data-z="rak" role="listitem"><span class="glyph">&#x264B;&#xFE0E;</span><span class="tname">Рак</span><span class="tdates">21&nbsp;июня&nbsp;— 22&nbsp;июля</span></button>
-      <button class="tile" data-z="lev" role="listitem"><span class="glyph">&#x264C;&#xFE0E;</span><span class="tname">Лев</span><span class="tdates">23&nbsp;июля&nbsp;— 22&nbsp;августа</span></button>
-      <button class="tile" data-z="deva" role="listitem"><span class="glyph">&#x264D;&#xFE0E;</span><span class="tname">Дева</span><span class="tdates">23&nbsp;августа&nbsp;— 22&nbsp;сентября</span></button>
-      <button class="tile" data-z="vesy" role="listitem"><span class="glyph">&#x264E;&#xFE0E;</span><span class="tname">Весы</span><span class="tdates">23&nbsp;сентября&nbsp;— 22&nbsp;октября</span></button>
-      <button class="tile" data-z="skorpion" role="listitem"><span class="glyph">&#x264F;&#xFE0E;</span><span class="tname">Скорпион</span><span class="tdates">23&nbsp;октября&nbsp;— 21&nbsp;ноября</span></button>
-      <button class="tile" data-z="strelec" role="listitem"><span class="glyph">&#x2650;&#xFE0E;</span><span class="tname">Стрелец</span><span class="tdates">22&nbsp;ноября&nbsp;— 21&nbsp;декабря</span></button>
-      <button class="tile" data-z="kozerog" role="listitem"><span class="glyph">&#x2651;&#xFE0E;</span><span class="tname">Козерог</span><span class="tdates">22&nbsp;декабря&nbsp;— 19&nbsp;января</span></button>
-      <button class="tile" data-z="vodoley" role="listitem"><span class="glyph">&#x2652;&#xFE0E;</span><span class="tname">Водолей</span><span class="tdates">20&nbsp;января&nbsp;— 18&nbsp;февраля</span></button>
-      <button class="tile" data-z="ryby" role="listitem"><span class="glyph">&#x2653;&#xFE0E;</span><span class="tname">Рыбы</span><span class="tdates">19&nbsp;февраля&nbsp;— 20&nbsp;марта</span></button>
-    </div>
+    <p class="sub">Нажмите на&nbsp;свой знак, и&nbsp;мы покажем книгу для него.</p>
 
     <div class="helper">
-      <h3>Не знаете свой знак?</h3>
-      <p>Выберите день и&nbsp;месяц рождения:</p>
+      <p class="helper-h"><b>Не знаете знак?</b> Выберите дату рождения:</p>
       <div class="helper-row">
         <label class="sel"><span class="vh">День рождения</span>
-          <select id="bday" aria-label="День рождения"><option value="">День</option></select>
+          <select id="bday"><option value="">День</option></select>
         </label>
         <label class="sel"><span class="vh">Месяц рождения</span>
-          <select id="bmonth" aria-label="Месяц рождения">
+          <select id="bmonth">
             <option value="">Месяц</option>
             <option value="1">января</option><option value="2">февраля</option><option value="3">марта</option>
             <option value="4">апреля</option><option value="5">мая</option><option value="6">июня</option>
@@ -73,113 +148,171 @@
           </select>
         </label>
       </div>
-      <p class="helper-result" id="helperResult" aria-live="polite"></p>
+      <div class="helper-result" id="helperResult" aria-live="polite"></div>
+    </div>
+
+    <div class="tiles" role="list">
+      <button type="button" class="tile" data-z="oven" role="listitem"><span class="glyph">&#x2648;&#xFE0E;</span><span class="tname">Овен</span><span class="tdates">21&nbsp;марта&nbsp;— 19&nbsp;апреля</span></button>
+      <button type="button" class="tile" data-z="telec" role="listitem"><span class="glyph">&#x2649;&#xFE0E;</span><span class="tname">Телец</span><span class="tdates">20&nbsp;апреля&nbsp;— 20&nbsp;мая</span></button>
+      <button type="button" class="tile" data-z="bliznecy" role="listitem"><span class="glyph">&#x264A;&#xFE0E;</span><span class="tname">Близнецы</span><span class="tdates">21&nbsp;мая&nbsp;— 20&nbsp;июня</span></button>
+      <button type="button" class="tile" data-z="rak" role="listitem"><span class="glyph">&#x264B;&#xFE0E;</span><span class="tname">Рак</span><span class="tdates">21&nbsp;июня&nbsp;— 22&nbsp;июля</span></button>
+      <button type="button" class="tile" data-z="lev" role="listitem"><span class="glyph">&#x264C;&#xFE0E;</span><span class="tname">Лев</span><span class="tdates">23&nbsp;июля&nbsp;— 22&nbsp;августа</span></button>
+      <button type="button" class="tile" data-z="deva" role="listitem"><span class="glyph">&#x264D;&#xFE0E;</span><span class="tname">Дева</span><span class="tdates">23&nbsp;августа&nbsp;— 22&nbsp;сентября</span></button>
+      <button type="button" class="tile" data-z="vesy" role="listitem"><span class="glyph">&#x264E;&#xFE0E;</span><span class="tname">Весы</span><span class="tdates">23&nbsp;сентября&nbsp;— 22&nbsp;октября</span></button>
+      <button type="button" class="tile" data-z="skorpion" role="listitem"><span class="glyph">&#x264F;&#xFE0E;</span><span class="tname">Скорпион</span><span class="tdates">23&nbsp;октября&nbsp;— 21&nbsp;ноября</span></button>
+      <button type="button" class="tile" data-z="strelec" role="listitem"><span class="glyph">&#x2650;&#xFE0E;</span><span class="tname">Стрелец</span><span class="tdates">22&nbsp;ноября&nbsp;— 21&nbsp;декабря</span></button>
+      <button type="button" class="tile" data-z="kozerog" role="listitem"><span class="glyph">&#x2651;&#xFE0E;</span><span class="tname">Козерог</span><span class="tdates">22&nbsp;декабря&nbsp;— 19&nbsp;января</span></button>
+      <button type="button" class="tile" data-z="vodoley" role="listitem"><span class="glyph">&#x2652;&#xFE0E;</span><span class="tname">Водолей</span><span class="tdates">20&nbsp;января&nbsp;— 18&nbsp;февраля</span></button>
+      <button type="button" class="tile" data-z="ryby" role="listitem"><span class="glyph">&#x2653;&#xFE0E;</span><span class="tname">Рыбы</span><span class="tdates">19&nbsp;февраля&nbsp;— 20&nbsp;марта</span></button>
     </div>
   </div>
 </section>
 
-<!-- 3. Что внутри -->
-<section id="inside" class="section">
-  <div class="wrap">
-    <h2>Что в&nbsp;книге</h2>
-    <p class="sub">57&nbsp;страниц, составленных для вашего знака.</p>
-
-    <ul class="inside">
-      <li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="7" width="22" height="20" rx="2"/><path d="M5 13h22M11 4v6M21 4v6"/></svg>
-        <div><b>Прогноз на&nbsp;каждый месяц</b> с&nbsp;октября 2026 по&nbsp;декабрь 2027: деньги, семья и&nbsp;любовь, дом, силы и&nbsp;настроение</div></li>
-      <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M20 5a11 11 0 1 0 7 17A9 9 0 0 1 20 5z"/></svg>
-        <div><b>Удачные дни</b> и&nbsp;дни, когда стоит быть внимательной,&nbsp;— на&nbsp;каждый месяц, посчитаны по&nbsp;Луне для вашего знака</div></li>
-      <li><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="11" cy="11" r="4"/><circle cx="22" cy="11" r="4"/><path d="M4 26c0-5 3-8 7-8s7 3 7 8M15 26c0-5 3-8 7-8s6 3 6 8"/></svg>
-        <div><b>Совместимость со&nbsp;всеми 12&nbsp;знаками</b>: муж, дети, подруги, соседи</div></li>
-      <li><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="10" r="5"/><path d="M7 28c0-6 4-10 9-10s9 4 9 10"/></svg>
-        <div><b>Характер знака</b>: женщина, мужчина, зрелые годы</div></li>
-      <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 28V14M16 18c-6 0-9-4-9-9 6 0 9 4 9 9zM16 15c0-5 3-8 9-8 0 5-3 8-9 8zM8 28h16"/></svg>
-        <div><b>Дача по&nbsp;месяцам</b> и&nbsp;дни для посадок по&nbsp;Луне</div></li>
-      <li><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="5"/><path d="M16 4v4M16 24v4M4 16h4M24 16h4M7.5 7.5l3 3M21.5 21.5l3 3M7.5 24.5l3-3M21.5 10.5l3-3"/></svg>
-        <div><b>Народный календарь</b>: праздники и&nbsp;приметы каждого месяца</div></li>
-      <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 7c4-1 7 0 10 2 3-2 6-3 10-2v18c-4-1-7 0-10 2-3-2-6-3-10-2z"/><path d="M16 9v18"/></svg>
-        <div><b>Сонник на&nbsp;81&nbsp;сон</b> с&nbsp;особыми толкованиями для вашего знака</div></li>
-      <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 6h14l5 7-12 14L4 13z"/><path d="M4 13h24M12 6l4 21M20 6l-4 21"/></svg>
-        <div><b>Обереги</b>: камни, цвета, числа удачи, счастливый день недели</div></li>
-      <li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="6" y="5" width="20" height="23" rx="2"/><path d="M10 12l2 2 4-4M10 20l2 2 4-4M19 13h4M19 21h4"/></svg>
-        <div><b>«Три дела на&nbsp;месяц»</b> и&nbsp;страницы для записей</div></li>
-    </ul>
-
-    <div class="previews">
-      <figure><img src="img/preview-cover.jpg" width="560" height="794" loading="lazy" alt="Обложка книги для Весов"></figure>
-      <figure><img src="img/preview-month.jpg" width="560" height="794" loading="lazy" alt="Страница с прогнозом на ноябрь"></figure>
-      <figure><img src="img/preview-compat.jpg" width="560" height="795" loading="lazy" alt="Страница о совместимости"></figure>
-      <figure><img src="img/preview-month2.jpg" width="560" height="795" loading="lazy" alt="Страница декабря: дача, народный календарь, три дела на месяц"></figure>
+<!-- 4. Предложение -->
+<section id="offer" class="section night">
+  <div class="wrap offer">
+    <div class="fan" aria-hidden="true">
+      <img class="fan-page fan-l" src="img/preview-month2.jpg" width="560" height="794" alt="" loading="lazy">
+      <img class="fan-page fan-r" src="img/preview-compat.jpg" width="560" height="794" alt="" loading="lazy">
+      <div class="cover">
+        <div class="cover-in">
+          <span class="cover-top">Есения Морайя</span>
+          <span class="cover-glyph js-glyph">&#x2726;&#xFE0E;</span>
+          <span class="cover-name js-name is-empty">12 книг, по&nbsp;одной на&nbsp;каждый знак</span>
+          <span class="cover-dates js-dates">&nbsp;</span>
+          <span class="cover-title">Гороскоп для вашего знака</span>
+          <span class="cover-period">октябрь 2026&nbsp;— декабрь 2027</span>
+        </div>
+      </div>
     </div>
-    <p class="caption">Страницы из&nbsp;книги для Весов</p>
+    <div class="offer-text">
+      <p class="offer-for" id="offerFor" hidden></p>
+      <h2 class="js-title" id="offerTitle">Гороскоп для вашего знака</h2>
+      <p class="offer-sub">Книга на&nbsp;15&nbsp;месяцев · 57&nbsp;страниц · PDF на&nbsp;почту</p>
+
+      <div class="stack">
+        <p class="stack-h">В&nbsp;книгу входит:</p>
+        <ul class="stack-list">
+          <li><b>Прогноз на&nbsp;15&nbsp;месяцев</b>: по&nbsp;2&nbsp;страницы на&nbsp;месяц, от&nbsp;октября 2026 до&nbsp;декабря 2027 <span class="tag">30&nbsp;страниц</span></li>
+          <li><b>Удачные дни и&nbsp;дни внимательности</b>, посчитаны по&nbsp;Луне <span class="tag">каждый месяц</span></li>
+          <li><b>Сонник</b> с&nbsp;особыми толкованиями для вашего знака <span class="tag">81&nbsp;сон · 12&nbsp;страниц</span></li>
+          <li><b>Совместимость</b>: муж, дети, подруги, соседи <span class="tag">12&nbsp;знаков</span></li>
+          <li><b>Дачный календарь</b>: дни для посадок и&nbsp;рассады по&nbsp;Луне <span class="tag">каждый месяц</span></li>
+          <li><b>Народный календарь</b>: праздники и&nbsp;приметы каждого месяца</li>
+          <li><b>Характер знака</b>: женщина, мужчина, зрелые годы <span class="tag">4&nbsp;страницы</span></li>
+          <li><b>Обереги</b>: камни, цвета, числа удачи, счастливый день <span class="tag">6&nbsp;подсказок</span></li>
+          <li><b>«Три дела на&nbsp;месяц»</b> и&nbsp;страницы для записей</li>
+          <li><b>Письмо от&nbsp;Есении</b> вашему знаку</li>
+        </ul>
+        <p class="stack-total"><b>Всё входит в&nbsp;одну книгу</b> на&nbsp;57&nbsp;страниц, ничего докупать не&nbsp;нужно</p>
+      </div>
+
+      <div class="price">
+        <span class="price-row"><s class="old">2&nbsp;500&nbsp;₽</s> <span class="new">790<span class="rub">&nbsp;₽</span></span> <span class="price-label">Временная скидка</span></span>
+        <p class="per-month">Это около 53&nbsp;₽ за&nbsp;месяц подсказок: 15&nbsp;месяцев в&nbsp;одной книге</p>
+      </div>
+
+      <div class="mini" id="mini">
+        <p class="mini-h" id="miniH">Ваш знак:</p>
+        <div class="mini-grid" role="group" aria-labelledby="miniH">
+          <button type="button" class="mz" data-z="oven"><span class="mg">&#x2648;&#xFE0E;</span>Овен</button>
+          <button type="button" class="mz" data-z="telec"><span class="mg">&#x2649;&#xFE0E;</span>Телец</button>
+          <button type="button" class="mz" data-z="bliznecy"><span class="mg">&#x264A;&#xFE0E;</span>Близнецы</button>
+          <button type="button" class="mz" data-z="rak"><span class="mg">&#x264B;&#xFE0E;</span>Рак</button>
+          <button type="button" class="mz" data-z="lev"><span class="mg">&#x264C;&#xFE0E;</span>Лев</button>
+          <button type="button" class="mz" data-z="deva"><span class="mg">&#x264D;&#xFE0E;</span>Дева</button>
+          <button type="button" class="mz" data-z="vesy"><span class="mg">&#x264E;&#xFE0E;</span>Весы</button>
+          <button type="button" class="mz" data-z="skorpion"><span class="mg">&#x264F;&#xFE0E;</span>Скорпион</button>
+          <button type="button" class="mz" data-z="strelec"><span class="mg">&#x2650;&#xFE0E;</span>Стрелец</button>
+          <button type="button" class="mz" data-z="kozerog"><span class="mg">&#x2651;&#xFE0E;</span>Козерог</button>
+          <button type="button" class="mz" data-z="vodoley"><span class="mg">&#x2652;&#xFE0E;</span>Водолей</button>
+          <button type="button" class="mz" data-z="ryby"><span class="mg">&#x2653;&#xFE0E;</span>Рыбы</button>
+        </div>
+      </div>
+
+      <a class="btn btn-gold btn-wide js-buy" id="buyBtn" href="#mini" data-empty="Выберите знак выше" data-empty-href="#mini">Выберите знак выше</a>
+      <p class="buy-note js-note" hidden>Книга для этого знака появится в&nbsp;ближайшие дни</p>
+
+      <ul class="trust">
+        <li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="7" y="14" width="18" height="13" rx="2"/><path d="M11 14v-4a5 5 0 0 1 10 0v4"/></svg>Безопасная оплата через сервис lava.top</li>
+        <li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="8" width="24" height="17" rx="2"/><path d="M4 10l12 9 12-9"/></svg>PDF придёт на&nbsp;вашу почту: обычно через несколько минут, самое позднее через 15</li>
+        <li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="10" y="4" width="12" height="24" rx="2"/><path d="M15 24h2"/></svg>Откроется на&nbsp;телефоне, планшете и&nbsp;компьютере, можно распечатать</li>
+        <li class="trust-once"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><path d="M11 16l3.5 3.5L21 13"/></svg>Оплата один раз, без подписки</li>
+      </ul>
+
+      <p class="gift">Хороший подарок маме или бабушке. <a href="#gift">Как подарить&nbsp;→</a></p>
+    </div>
   </div>
 </section>
 
-<!-- 4. Письмо Есении -->
+<!-- 5. Письмо Есении -->
 <section class="section letter-sec">
   <div class="wrap narrow">
     <div class="letter">
       <img class="letter-photo" src="img/esenia-2.jpg" width="900" height="1599" loading="lazy" alt="Есения Морайя">
       <div>
-        <p class="letter-text">Здравствуйте, мои дорогие. В&nbsp;этой книге я&nbsp;собрала для вашего знака подсказки на&nbsp;каждый месяц: когда лучше браться за&nbsp;дела, когда поберечь силы, чем порадовать дом и&nbsp;близких. Читайте не&nbsp;спеша, с&nbsp;чашкой чая.</p>
+        <p class="letter-text">Здравствуйте, мои дорогие. В&nbsp;этой книге я&nbsp;собрала для вашего знака подсказки на&nbsp;каждый месяц: когда лучше браться за&nbsp;дела, когда поберечь силы, что посадить на&nbsp;даче и&nbsp;что значат ваши сны. Читайте не&nbsp;спеша, с&nbsp;чашкой чая.</p>
         <p class="letter-sign">Ваша Есения</p>
+        <p class="letter-note">В&nbsp;книге вас ждёт письмо Есении для вашего знака</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 5. Предложение -->
-<section id="offer" class="section night">
-  <div class="wrap offer">
-    <div class="cover" aria-hidden="true">
-      <div class="cover-in">
-        <span class="cover-top">Есения Морайя</span>
-        <span class="cover-glyph" id="coverGlyph">&#x2726;&#xFE0E;</span>
-        <span class="cover-name" id="coverName">Ваш знак</span>
-        <span class="cover-dates" id="coverDates">&nbsp;</span>
-        <span class="cover-title">Гороскоп для вашего знака</span>
-        <span class="cover-period">октябрь 2026&nbsp;— декабрь 2027</span>
-      </div>
-    </div>
-    <div class="offer-text">
-      <h2 id="offerTitle">Гороскоп для вашего знака</h2>
-      <p class="offer-sub">на&nbsp;октябрь 2026&nbsp;— декабрь 2027 · 57&nbsp;страниц · PDF</p>
-      <div class="price">
-        <span class="price-label">Временная скидка</span>
-        <span class="price-row"><s class="old">2&nbsp;500&nbsp;₽</s> <span class="new">790<span class="rub">&nbsp;₽</span></span></span>
-      </div>
-      <a class="btn btn-gold btn-wide" id="buyBtn" href="#signs">Сначала выберите знак</a>
-      <p class="buy-note" id="buyNote" hidden>Ссылка на&nbsp;оплату скоро появится</p>
-      <p class="offer-change" id="offerChange" hidden><a href="#signs">Выбрать другой знак</a></p>
-      <p class="gift">Хороший подарок маме или бабушке.</p>
-    </div>
+<!-- 6. Подарок -->
+<section id="gift" class="section paper">
+  <div class="wrap narrow">
+    <h2>Хороший подарок маме, бабушке, подруге</h2>
+    <p class="sub">Узнайте знак того, кого хотите порадовать, и&nbsp;купите книгу для него. Письмо придёт на&nbsp;вашу почту: перешлите его или распечатайте книгу и&nbsp;подарите в&nbsp;конверте. Это подарок на&nbsp;весь год, к&nbsp;нему возвращаются каждый месяц.</p>
+    <ul class="gift-points">
+      <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4l3.5 7.5L28 13l-6 6 1.5 8.5L16 23.5 8.5 27.5 10 19l-6-6 8.5-1.5z"/></svg><span>Выберите знак получателя</span></li>
+      <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 24c2-7 7-10 14-10V9l7 7-7 7v-5c-6 0-10 2-14 6z"/></svg><span>Перешлите письмо или распечатайте</span></li>
+      <li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="13" width="22" height="14" rx="1"/><path d="M3 9h26v4H3zM16 9v18M16 9c-3-5-9-5-8-1 1 2 5 1 8 1zM16 9c3-5 9-5 8-1-1 2-5 1-8 1z"/></svg><span>Подходит к&nbsp;дню рождения, Новому году, 8&nbsp;Марта</span></li>
+    </ul>
   </div>
 </section>
 
-<!-- 6. Как купить -->
-<section id="how" class="section paper">
+<!-- 7. Как купить -->
+<section id="how" class="section">
   <div class="wrap narrow">
     <h2>Как купить</h2>
     <ol class="steps">
-      <li><span class="num">1</span><div><b>Выберите свой знак</b><br>Нажмите на&nbsp;него в&nbsp;списке выше.</div></li>
-      <li><span class="num">2</span><div><b>Оплатите картой</b><br>Нажмите «Купить» и&nbsp;введите данные карты на&nbsp;странице оплаты.</div></li>
-      <li><span class="num">3</span><div><b>Книга придёт на&nbsp;почту</b><br>Сразу после оплаты&nbsp;— на&nbsp;адрес, который вы укажете.</div></li>
+      <li><span class="num">1</span><div><b>Выберите свой знак</b><br>Нажмите на&nbsp;него в&nbsp;начале страницы или на&nbsp;кнопку ниже.</div></li>
+      <li><span class="num">2</span><div><b>Оплатите картой</b><br>На&nbsp;защищённой странице lava.top. Укажите почту, на&nbsp;которую прислать книгу.</div></li>
+      <li><span class="num">3</span><div><b>Книга придёт на&nbsp;почту</b><br>Обычно через несколько минут, самое позднее через 15. Проверьте и&nbsp;папку «Спам».</div></li>
     </ol>
+    <p class="cta-row"><a class="btn btn-gold js-how" href="#signs">Выбрать знак и&nbsp;купить</a></p>
   </div>
 </section>
 
-<!-- 7. Вопросы -->
-<section id="faq" class="section">
+<!-- 8. Вопросы -->
+<section id="faq" class="section paper">
   <div class="wrap narrow">
     <h2>Частые вопросы</h2>
     <div class="faq">
-      <details>
+      <details open>
         <summary>Как я получу книгу?</summary>
-        <p>Сразу после оплаты на&nbsp;вашу электронную почту придёт письмо со&nbsp;ссылкой на&nbsp;файл PDF. Нажмите на&nbsp;ссылку&nbsp;— книга откроется на&nbsp;телефоне или компьютере.</p>
+        <p>После оплаты на&nbsp;вашу электронную почту придёт письмо со&nbsp;ссылкой на&nbsp;файл PDF. Обычно письмо приходит через несколько минут после оплаты, самое позднее через 15&nbsp;минут. Нажмите на&nbsp;ссылку, и&nbsp;книга откроется на&nbsp;телефоне или компьютере.</p>
       </details>
       <details>
-        <summary>Можно ли распечатать?</summary>
-        <p>Да. Файл можно читать на&nbsp;телефоне, а&nbsp;можно распечатать дома или в&nbsp;любом копицентре.</p>
+        <summary>Откроется ли на&nbsp;телефоне?</summary>
+        <p>Да. PDF открывается на&nbsp;любом телефоне: нажмите на&nbsp;ссылку в&nbsp;письме, и&nbsp;книга откроется. Ничего устанавливать не&nbsp;нужно. Текст можно увеличить двумя пальцами.</p>
+      </details>
+      <details>
+        <summary>Шрифт не&nbsp;мелкий? Удобно ли распечатать?</summary>
+        <p>Книга сделана в&nbsp;формате небольшой книжки (А5). Если распечатать её на&nbsp;обычных листах А4, шрифт станет крупнее, и&nbsp;читать будет совсем удобно. Распечатать можно дома или в&nbsp;любом копицентре.</p>
+      </details>
+      <details>
+        <summary>Это подписка? Деньги не&nbsp;будут списываться?</summary>
+        <p>Нет. Вы платите один раз, 790&nbsp;₽, и&nbsp;книга остаётся у&nbsp;вас.</p>
+      </details>
+      <details>
+        <summary>Как оплатить?</summary>
+        <p>Картой на&nbsp;защищённой странице сервиса lava.top.</p>
+      </details>
+      <details>
+        <summary>Я ошиблась со&nbsp;знаком. Что делать?</summary>
+        <p>Напишите на&nbsp;<a class="mail" href="mailto:support@lava.top">support@lava.top</a> в&nbsp;течение 14&nbsp;дней, укажите почту, с&nbsp;которой платили, и&nbsp;нужный знак. Постараемся заменить книгу на&nbsp;книгу для нужного знака.</p>
       </details>
       <details>
         <summary>Письмо не&nbsp;пришло. Что делать?</summary>
@@ -193,13 +326,50 @@
         <summary>Я не&nbsp;знаю время рождения. Это важно?</summary>
         <p>Нет, не&nbsp;нужно. Книга составлена для знака, поэтому достаточно даты рождения&nbsp;— дня и&nbsp;месяца.</p>
       </details>
+      <details>
+        <summary>Чем эта книга отличается от&nbsp;гороскопа в&nbsp;интернете?</summary>
+        <p>Здесь всё собрано в&nbsp;одном месте на&nbsp;15&nbsp;месяцев вперёд: прогноз на&nbsp;каждый месяц, удачные дни по&nbsp;Луне, сонник, совместимость, дачный календарь и&nbsp;народные приметы. Книгу можно распечатать и&nbsp;держать под рукой.</p>
+      </details>
+      <details>
+        <summary>Можно ли купить для нескольких знаков?</summary>
+        <p>Да, для каждого знака своя книга. Выберите нужный знак и&nbsp;оплатите, потом вернитесь и&nbsp;выберите следующий.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 9. Финальная карточка предложения -->
+<section id="final" class="section night">
+  <div class="wrap final">
+    <div class="cover cover-sm" aria-hidden="true">
+      <div class="cover-in">
+        <span class="cover-top">Есения Морайя</span>
+        <span class="cover-glyph js-glyph">&#x2726;&#xFE0E;</span>
+        <span class="cover-name js-name is-empty">12 книг, по&nbsp;одной на&nbsp;каждый знак</span>
+        <span class="cover-dates js-dates">&nbsp;</span>
+        <span class="cover-title">Гороскоп для вашего знака</span>
+        <span class="cover-period">октябрь 2026&nbsp;— декабрь 2027</span>
+      </div>
+    </div>
+    <div class="final-text">
+      <h2 class="js-title">Гороскоп для вашего знака</h2>
+      <p class="offer-sub">57&nbsp;страниц · PDF на&nbsp;почту</p>
+      <p class="price-row final-price"><s class="old">2&nbsp;500&nbsp;₽</s> <span class="new">790<span class="rub">&nbsp;₽</span></span></p>
+      <a class="btn btn-gold btn-wide js-buy" href="#signs" data-empty="Выбрать свой знак" data-empty-href="#signs">Выбрать свой знак</a>
+      <p class="buy-note js-note" hidden>Книга для этого знака появится в&nbsp;ближайшие дни</p>
+      <ul class="trust">
+        <li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="7" y="14" width="18" height="13" rx="2"/><path d="M11 14v-4a5 5 0 0 1 10 0v4"/></svg>Безопасная оплата через сервис lava.top</li>
+        <li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="8" width="24" height="17" rx="2"/><path d="M4 10l12 9 12-9"/></svg>PDF придёт на&nbsp;вашу почту: обычно через несколько минут, самое позднее через 15</li>
+        <li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="10" y="4" width="12" height="24" rx="2"/><path d="M15 24h2"/></svg>Откроется на&nbsp;телефоне, планшете и&nbsp;компьютере, можно распечатать</li>
+        <li class="trust-once"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><path d="M11 16l3.5 3.5L21 13"/></svg>Оплата один раз, без подписки</li>
+      </ul>
     </div>
   </div>
 </section>
 
 </main>
 
-<!-- 8. Подвал -->
+<!-- 10. Подвал -->
 <footer class="footer">
   <div class="wrap">
     <p class="footer-name">Есения Морайя</p>
@@ -209,15 +379,25 @@
       <a href="refund.html">Возврат и&nbsp;поддержка</a>
     </nav>
     <p>Вопросы по&nbsp;оплате и&nbsp;получению: <a class="mail" href="mailto:support@lava.top">support@lava.top</a></p>
-    <p class="disc">Есения Морайя&nbsp;— ИИ-персонаж. Материалы носят развлекательный характер.</p>
+    <p class="insta">Каждую неделю новые подсказки в&nbsp;профиле <a id="instaLink" href="https://instagram.com/esenia.moraya" target="_blank" rel="noopener">@esenia.moraya</a></p>
   </div>
 </footer>
 
 <!-- Нижняя панель на телефоне -->
 <div class="stickybar" id="stickybar" aria-hidden="true">
-  <span class="sb-price"><s>2&nbsp;500&nbsp;₽</s> <b>790<span class="rub">&nbsp;₽</span></b></span>
-  <a class="btn btn-gold sb-btn" id="sbBtn" href="#signs" tabindex="-1">Выбрать знак</a>
+  <span class="sb-info">
+    <span class="sb-sign" id="sbSign" hidden></span>
+    <span class="sb-price"><s id="sbOld">2&nbsp;500&nbsp;₽</s> <b>790<span class="rub">&nbsp;₽</span></b></span>
+  </span>
+  <a class="btn btn-gold sb-btn js-bar-btn" href="#signs" tabindex="-1">Выбрать знак</a>
 </div>
+
+<!-- Увеличение страниц -->
+<dialog class="lightbox" id="lightbox" aria-label="Страница книги">
+  <button type="button" class="lb-close" id="lbClose">Закрыть&nbsp;✕</button>
+  <img id="lbImg" src="" alt="">
+  <p class="lb-cap" id="lbCap"></p>
+</dialog>
 
 <script>
 (function () {
@@ -238,10 +418,11 @@
   var VS = '︎', NB = ' ';
   var cfg = window.SITE || {}, buy = cfg.buy || {};
   var $ = function (id) { return document.getElementById(id); };
-  var tiles = document.querySelectorAll('.tile');
+  var $$ = function (sel) { return Array.prototype.slice.call(document.querySelectorAll(sel)); };
   var current = null;
 
   function nb(s) { return s.replace(/ (—)/g, NB + '$1').replace(/(\d) /g, '$1' + NB); }
+  function setText(sel, txt) { $$(sel).forEach(function (el) { el.textContent = txt; }); }
 
   function link(slug) {
     var u = buy[slug];
@@ -258,49 +439,79 @@
     if (!s) return;
     current = slug;
     opts = opts || {};
-    tiles.forEach(function (t) {
+    $$('[data-z]').forEach(function (t) {
       var on = t.getAttribute('data-z') === slug;
       t.classList.toggle('on', on);
       t.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
-    $('offerTitle').textContent = 'Гороскоп для' + NB + s.gen;
-    $('coverGlyph').textContent = s.glyph + VS;
-    $('coverName').textContent = s.name;
-    $('coverDates').textContent = nb(s.dates);
-    var url = link(slug), btn = $('buyBtn'), sb = $('sbBtn');
-    btn.textContent = 'Купить книгу для' + NB + s.gen;
-    sb.textContent = 'Купить';
-    if (url) {
-      btn.href = url; sb.href = url;
-      btn.removeAttribute('data-nolink');
-      $('buyNote').hidden = true;
-    } else {
-      btn.href = '#offer'; sb.href = '#offer';
-      btn.setAttribute('data-nolink', '1');
-      $('buyNote').hidden = false;
-    }
-    $('offerChange').hidden = false;
+    var title = 'Гороскоп для' + NB + s.gen;
+    setText('.js-title', title);
+    setText('.js-tb-title', title);
+    setText('.js-glyph', s.glyph + VS);
+    setText('.js-name', s.name);
+    $$('.js-name').forEach(function (el) { el.classList.remove('is-empty'); });
+    setText('.js-dates', nb(s.dates));
+    $('offerFor').textContent = 'Составлено для' + NB + s.gen + ' · ' + nb(s.dates);
+    $('offerFor').hidden = false;
+    $('miniH').textContent = 'Ваш знак: ' + s.name + ' (можно выбрать другой)';
+
+    var url = link(slug);
+    $$('.js-buy').forEach(function (btn) {
+      btn.textContent = 'Купить книгу для' + NB + s.gen + ' за' + NB + '790' + NB + '₽';
+      if (url) { btn.href = url; btn.removeAttribute('data-nolink'); }
+      else { btn.href = '#offer'; btn.setAttribute('data-nolink', '1'); }
+    });
+    $$('.js-note').forEach(function (n) { n.hidden = !!url; });
+    $$('.js-bar-btn').forEach(function (b) {
+      b.textContent = 'Купить книгу';
+      b.href = url || '#offer';
+    });
+    $$('.js-how').forEach(function (b) {
+      b.textContent = 'Купить книгу для' + NB + s.gen;
+      b.href = '#offer';
+    });
+    $('sbSign').textContent = s.glyph + VS + ' ' + s.name;
+    $('sbSign').hidden = false;
+    $('sbOld').hidden = true;
+
     try { sessionStorage.setItem('esenia_z', slug); } catch (e) {}
     if (opts.scroll) scrollToEl($('offer'));
   }
 
-  tiles.forEach(function (t) {
+  $$('.tile').forEach(function (t) {
     t.setAttribute('aria-pressed', 'false');
     t.addEventListener('click', function () { select(t.getAttribute('data-z'), { scroll: true }); });
   });
-
-  // Кнопка покупки без ссылки: не уводим со страницы, а показываем пометку
-  $('buyBtn').addEventListener('click', function (e) {
-    if (!current) { e.preventDefault(); scrollToEl($('signs')); return; }
-    if (this.getAttribute('data-nolink')) { e.preventDefault(); $('buyNote').hidden = false; }
-  });
-  $('sbBtn').addEventListener('click', function (e) {
-    if (!current) { e.preventDefault(); scrollToEl($('signs')); return; }
-    if (!link(current)) { e.preventDefault(); scrollToEl($('offer')); }
+  $$('.mz').forEach(function (t) {
+    t.setAttribute('aria-pressed', 'false');
+    t.addEventListener('click', function () { select(t.getAttribute('data-z')); });
   });
 
-  // Подсказка по дате рождения
-  var dSel = $('bday'), mSel = $('bmonth');
+  // Кнопки покупки: без знака ведут к выбору, без ссылки показывают пометку и не уводят со страницы
+  $$('.js-buy').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      if (!current) {
+        e.preventDefault();
+        var target = document.querySelector(btn.getAttribute('data-empty-href') || '#signs');
+        scrollToEl(target);
+        return;
+      }
+      if (btn.getAttribute('data-nolink')) {
+        e.preventDefault();
+        var note = btn.nextElementSibling;
+        if (note && note.classList.contains('js-note')) note.hidden = false;
+      }
+    });
+  });
+  $$('.js-bar-btn').forEach(function (b) {
+    b.addEventListener('click', function (e) {
+      if (!current) { e.preventDefault(); scrollToEl($('signs')); return; }
+      if (!link(current)) { e.preventDefault(); scrollToEl($('offer')); }
+    });
+  });
+
+  // Подсказка по дате рождения: показываем результат, прокрутку делает сам человек
+  var dSel = $('bday'), mSel = $('bmonth'), res = $('helperResult');
   for (var d = 1; d <= 31; d++) {
     var o = document.createElement('option'); o.value = d; o.textContent = d; dSel.appendChild(o);
   }
@@ -314,15 +525,44 @@
   }
   function onDate() {
     var day = +dSel.value, month = +mSel.value;
-    if (!day || !month) { $('helperResult').textContent = ''; return; }
-    if (day > new Date(2000, month, 0).getDate()) { $('helperResult').textContent = 'Такой даты нет — проверьте день и месяц.'; return; }
-    var slug = signByDate(day, month);
-    $('helperResult').innerHTML = 'Ваш знак&nbsp;— <b>' + SIGNS[slug].name + '</b>';
+    res.innerHTML = '';
+    if (!day || !month) return;
+    if (day > new Date(2000, month, 0).getDate()) {
+      res.innerHTML = '<p class="hr-err">Такой даты нет&nbsp;— проверьте день и&nbsp;месяц.</p>';
+      return;
+    }
+    var slug = signByDate(day, month), s = SIGNS[slug];
+    res.innerHTML = '<p class="hr-sign">Ваш знак: <b>' + s.name + '</b> <span class="hr-glyph">' + s.glyph + VS + '</span></p>' +
+      '<a class="btn btn-gold hr-btn" href="#offer">Показать книгу для' + NB + s.gen + '&nbsp;→</a>';
     select(slug);
-    setTimeout(function () { scrollToEl($('offer')); }, 1200);
+    res.querySelector('.hr-btn').addEventListener('click', function (e) { e.preventDefault(); scrollToEl($('offer')); });
   }
   dSel.addEventListener('change', onDate);
   mSel.addEventListener('change', onDate);
+
+  // Лента превью и увеличение
+  var strip = $('pvStrip');
+  $$('.pv-arrow').forEach(function (a) {
+    a.addEventListener('click', function () {
+      var card = strip.querySelector('.pv');
+      var step = card ? card.getBoundingClientRect().width + 16 : strip.clientWidth * 0.8;
+      strip.scrollBy({ left: step * +a.getAttribute('data-dir'), behavior: 'smooth' });
+    });
+  });
+  var lb = $('lightbox'), lbImg = $('lbImg'), lbCap = $('lbCap');
+  $$('.pv-btn').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var img = b.querySelector('img'), cap = b.parentNode.querySelector('figcaption');
+      lbImg.src = img.getAttribute('src'); lbImg.alt = img.alt;
+      lbCap.textContent = cap ? cap.textContent : '';
+      if (typeof lb.showModal === 'function') lb.showModal(); else window.open(img.src, '_blank');
+    });
+  });
+  $('lbClose').addEventListener('click', function () { lb.close(); });
+  lb.addEventListener('click', function (e) { if (e.target === lb) lb.close(); });
+
+  // Instagram из настроек
+  if (typeof cfg.instagram === 'string' && /^https?:\/\//.test(cfg.instagram)) $('instaLink').href = cfg.instagram;
 
   // Предвыбор знака: ?z=slug, иначе выбор в этой вкладке
   var fromUrl = null;
@@ -332,14 +572,19 @@
   if (fromUrl && SIGNS[fromUrl]) select(fromUrl);
   else if (saved && SIGNS[saved]) select(saved);
 
-  // Нижняя панель: после первого экрана, прячется у блока с ценой
-  var bar = $('stickybar'), hero = document.querySelector('.hero'), offer = $('offer'), signsSec = $('signs'), foot = document.querySelector('.footer');
+  // Панели: снизу на телефоне, сверху на компьютере; появляются после первого экрана
+  var bar = $('stickybar'), top = $('topbar'), hero = document.querySelector('.hero');
+  var offer = $('offer'), fin = $('final'), signsSec = $('signs'), foot = document.querySelector('.footer');
   function vis(el) { var r = el.getBoundingClientRect(); return r.top < window.innerHeight && r.bottom > 0; }
+  function setBar(el, show) {
+    el.classList.toggle('on', show);
+    el.setAttribute('aria-hidden', show ? 'false' : 'true');
+    el.querySelector('.js-bar-btn').tabIndex = show ? 0 : -1;
+  }
   function upd() {
-    var show = hero.getBoundingClientRect().bottom < 0 && !vis(offer) && !vis(foot) && !vis(signsSec);
-    bar.classList.toggle('on', show);
-    bar.setAttribute('aria-hidden', show ? 'false' : 'true');
-    $('sbBtn').tabIndex = show ? 0 : -1;
+    var past = hero.getBoundingClientRect().bottom < 0;
+    setBar(bar, past && !vis(offer) && !vis(fin) && !vis(foot) && !vis(signsSec));
+    setBar(top, past);
   }
   window.addEventListener('scroll', upd, { passive: true });
   window.addEventListener('resize', upd);
