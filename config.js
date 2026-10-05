@@ -12,7 +12,7 @@ window.SITE = {
     skorpion: 'https://app.lava.top/products/7579a0d6-5eac-4baa-89b5-d6f7125a7782',  // Скорпион
     strelec: 'https://app.lava.top/products/1012953e-5d34-4d2a-921c-f5455a7389ec',   // Стрелец
     kozerog: 'https://app.lava.top/products/d07e4d69-b4a7-40a2-9524-7d11f8fdf264',   // Козерог
-    vodoley: '',   // Водолей
+    vodoley: 'https://app.lava.top/products/3e818204-fedf-4b9b-a2e0-bebe6e364fef',   // Водолей
     ryby: ''       // Рыбы
   },
   email: 'support@lava.top',
