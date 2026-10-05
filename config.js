@@ -10,7 +10,7 @@ window.SITE = {
     deva: 'https://app.lava.top/products/46231cce-4dab-4c53-96dc-9f691ca4580b',      // Дева
     vesy: 'https://app.lava.top/products/ddea8221-97bc-4f79-bc94-d34eb6dd6b2d',      // Весы
     skorpion: 'https://app.lava.top/products/7579a0d6-5eac-4baa-89b5-d6f7125a7782',  // Скорпион
-    strelec: '',   // Стрелец
+    strelec: 'https://app.lava.top/products/1012953e-5d34-4d2a-921c-f5455a7389ec',   // Стрелец
     kozerog: '',   // Козерог
     vodoley: '',   // Водолей
     ryby: ''       // Рыбы
