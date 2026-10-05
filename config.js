@@ -13,7 +13,7 @@ window.SITE = {
     strelec: 'https://app.lava.top/products/1012953e-5d34-4d2a-921c-f5455a7389ec',   // Стрелец
     kozerog: 'https://app.lava.top/products/d07e4d69-b4a7-40a2-9524-7d11f8fdf264',   // Козерог
     vodoley: 'https://app.lava.top/products/3e818204-fedf-4b9b-a2e0-bebe6e364fef',   // Водолей
-    ryby: ''       // Рыбы
+    ryby: 'https://app.lava.top/products/4b2c8e84-7a69-4231-8dd8-2b845b7b7ac0'       // Рыбы
   },
   email: 'support@lava.top',
   instagram: 'https://instagram.com/esenia.moraya'
